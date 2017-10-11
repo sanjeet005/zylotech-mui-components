@@ -1,0 +1,24 @@
+{
+  "name": "zylotech-mui-components",
+  "version": "1.0.0",
+  "description": "This package includes everything you need to start building an application with Webpack 2, React and SASS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeet005/zylotech-mui-components.git"
+  },
+  "keywords": [],
+  "author": "Sanjeet",
+  "license": "Zylotech",
+  "bugs": {
+    "url": "https://github.com/sanjeet005/zylotech-mui-components/issues"
+  },
+  "homepage": "https://github.com/sanjeet005/zylotech-mui-components#readme",
+  "engines": {
+    "node": ">=4.3.0",
+    "npm": ">=4.0.1"
+  }
+}
