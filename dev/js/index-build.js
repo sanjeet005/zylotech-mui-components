@@ -1,16 +1,15 @@
-import React from 'react';
+// imports mui components
+import ZTechTypography from "./components/ui/Typography/ZTechTypography";
+import ZTechContentHeader from "./components/ui/ContentHeader/ZTechContentHeader";
+import ZTechContentSubHeader from "./components/ui/ContentSubHeader/ZTechContentSubHeader";
+import ZTechButton from "./components/ui/Button/ZTechButton";
+import ZTechTabs from "./components/ui/Tabs/ZTechTabs";
 
-// imports the components
-import MyFirstComponent from "./components/MyFirstComponent";
-
-class MyAllComponent extends React.Component {
-   render() {
-      return (
-         <div>
-           <MyFirstComponent />
-         </div>
-      );
-   }
+// mapped multiple components into single place
+module.exports = {
+    ZTechTypography,
+    ZTechContentHeader,
+    ZTechContentSubHeader,
+    ZTechButton,
+    ZTechTabs
 }
-
-export default MyAllComponent;

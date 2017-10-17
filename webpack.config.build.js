@@ -15,10 +15,10 @@ var config = {
         test: /\.js$/,
         exclude: /(node_modules|bower_components|src)/,
         use: {
-            loader: 'babel-loader',
-            options: {
-                presets: ["env"]
-            }
+            loader: 'babel-loader'
+            // options: {
+            //     presets: ["env"]
+            // }
         }
       },
       {
@@ -26,6 +26,12 @@ var config = {
         use: {
             loader: "style-loader!css-loader!sass-loader"
         }
+      },
+      // for flexboxgrid
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader?modules',
+        include: /flexboxgrid/
       }
     ]
   },
@@ -33,7 +39,7 @@ var config = {
   externals: {
     'react': 'commonjs react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
   }
-  
+
 };
 
 module.exports = config;
