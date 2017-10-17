@@ -25,10 +25,10 @@ var config = {
         test: /\.js$/,
         exclude: /(node_modules|bower_components|src)/,
         use: {
-            loader: 'babel-loader',
-            options: {
-                presets: ["es2015", "react", "stage-0"]
-            }
+            loader: 'babel-loader'
+            // options: {
+            //     presets: ["es2015", "react", "stage-0"]
+            // }
         }
       },
       {
